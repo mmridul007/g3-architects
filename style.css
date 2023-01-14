@@ -82,3 +82,68 @@ header{
     margin-left: 12.5%;
     margin-bottom: 45px;
  }
+/* Mid Top  */
+.top-mid-container{
+    display: flex;
+    gap: 65px;
+    margin-top: 85px;
+    margin-left: 301px;
+    margin-bottom: 65px;
+}
+.top-mid-container .partition-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.top-mid-container .partition-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 305px;
+}
+.top-mid-container .partition-2 .light{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.top-mid-container .partition-2 .dark{
+    font-weight: 800;
+    font-size: 45px;
+    color: #131313;
+}
+.top-mid-container .partition-2 .orange{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+    margin-top: -30px;
+}
+.top-mid-container .partition-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: -30px;
+}
+.top-mid-container .partition-2 .primary-btn{
+    margin-top: 10px;
+}
+.primary-btn{ 
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #ffffff;
+    border: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width){
+    
+    .nav-container{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+}
