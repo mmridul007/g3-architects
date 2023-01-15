@@ -265,6 +265,38 @@ header{
     color: #727272;
     margin-top: 10px;
 }
+
+/* sponsors section  */
+.sponsor-container{
+    margin-left: 240px;
+    margin-top: 100px;
+    margin-right: 240px;
+}
+.sponsor-container .sponsor-title{
+    text-align: center;
+}
+.sponsor-container .sponsor-title h2{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.sponsor-container .sponsor-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.sponsor-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.sponsor-content .sponsor-item{
+    color: #727272;
+}
+
+
 @media only screen and (max-width){
     
     .nav-container{
