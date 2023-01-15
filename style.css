@@ -41,6 +41,10 @@ header{
     font-size: 18px;
     color: #424242;
 }
+.nav-item a:hover{
+    color: red;
+    transition: 0.5s;
+}
  /* Header Title  */
  .header-title{
     width: 862px;
@@ -72,6 +76,10 @@ header{
     border: white;
     font-weight: 600;
     font-size: 20px;
+ }
+ .header-title .header-button button:hover{
+    background-color: rgb(121, 3, 32);
+    transition: 0.5s;
  }
  .header-title .header-button{
     margin-top: 18px;
@@ -139,7 +147,10 @@ header{
     font-weight: 600;
     font-size: 20px;
 }
-
+.primary-btn:hover{
+    background-color: rgb(121, 3, 32);
+    transition: 0.5s;
+}
 /* Second Mid  */
 .second-mid-container{
     margin-left: 240px;
@@ -204,6 +215,7 @@ header{
     margin-left: 35%;
     border: white;
 }
+
 .mega-button h2{
     font-weight: 700;
     font-size: 65px;
@@ -217,6 +229,10 @@ header{
     font-size: 25px;
     color: #FFFFFF;
     margin-top: 0;
+}
+.mega-button:hover{
+    background-color: rgb(121, 3, 32);
+    transition: 0.5s;
 }
 .btn-cont{
     margin-top: -180px;
@@ -296,6 +312,11 @@ header{
 }
 .sponsor-content .sponsor-item{
     color: #727272;
+}
+/* follow us section  */
+.media-container .media-content .media img{
+    width: 100px;
+    height: 100px;
 }
 /* Footer  */
 .footer-container{
