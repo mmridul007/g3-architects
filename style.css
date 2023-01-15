@@ -138,6 +138,87 @@ header{
     font-size: 20px;
 }
 
+/* Second Mid  */
+.second-mid-container{
+    margin-left: 240px;
+    /* display: flex; */
+    
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+.main-cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 54px;
+}
+.line{
+    width: 5px;
+    height: 106px;
+    background: #FF900E;
+}
+.title{
+    display: flex;
+}
+.title h2{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 0;
+    margin-left: 21px;
+}
+.title-discription p{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.content-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-cont .item{
+    padding: 30px;
+    margin-right: 50px;
+}
+.content-cont .item h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.content-cont .item p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.second-mid-container .partition-2{
+    margin-right: 240px;
+}
+.mega-button{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-left: 35%;
+    border: white;
+}
+.mega-button h2{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.mega-button p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.btn-cont{
+    margin-top: -180px;
+}
 
 @media only screen and (max-width){
     
