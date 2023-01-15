@@ -9,7 +9,8 @@ body{
 header{
     width: 100%;
     height: 1322px;
-    background: rgba(255, 144, 14, 0.1);
+    /* background: rgba(255, 144, 14, 0.1);  */
+    background: #FFF4E7;
 }
 /* Navigation  */
 .nav-container{
@@ -79,8 +80,9 @@ header{
  /* banner  */
  .banner{
     margin-top: 50px;
-    margin-left: 12.5%;
+    margin-left: 240px;
     margin-bottom: 45px;
+    margin-right: 240px;
  }
 /* Mid Top  */
 .top-mid-container{
@@ -294,6 +296,18 @@ header{
 }
 .sponsor-content .sponsor-item{
     color: #727272;
+}
+/* Footer  */
+.footer-container{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-right: 240px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 
